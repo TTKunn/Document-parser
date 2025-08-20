@@ -1,0 +1,250 @@
+2025-08-19 23:38:20 - MainProcess | MainThread | pdf_parser.__init__:45 - INFO - PDF解析器初始化完成 - 分块大小: 1000, 重叠大小: 200
+2025-08-19 23:46:06 - SpawnProcess-1 | MainThread | pdf_parser.__init__:45 - INFO - PDF解析器初始化完成 - 分块大小: 1000, 重叠大小: 200
+2025-08-19 23:46:19 - SpawnProcess-1 | MainThread | pdf_parser.__init__:45 - INFO - PDF解析器初始化完成 - 分块大小: 1000, 重叠大小: 200
+2025-08-19 23:52:25 - SpawnProcess-1 | MainThread | main.parse_pdf:94 - INFO - 开始解析PDF文件: 徐泽坤.pdf, 任务ID: 8969368a-c570-4e41-af49-d99faff52ef5
+2025-08-19 23:52:25 - SpawnProcess-1 | MainThread | pdf_parser.__init__:45 - INFO - PDF解析器初始化完成 - 分块大小: 1000, 重叠大小: 200
+2025-08-19 23:52:25 - SpawnProcess-1 | MainThread | pdf_parser.parse_pdf_to_documents:123 - INFO - 开始解析PDF文档: C:\Users\32934\AppData\Local\Temp\tmpdbgx4wap.pdf
+2025-08-19 23:52:25 - SpawnProcess-1 | MainThread | pdf_parser.load_pdf:64 - INFO - 开始加载PDF文件: C:\Users\32934\AppData\Local\Temp\tmpdbgx4wap.pdf
+2025-08-19 23:52:26 - SpawnProcess-1 | MainThread | pdf_parser.load_pdf:71 - INFO - PDF加载完成 - 总页数: 2
+2025-08-19 23:52:26 - SpawnProcess-1 | MainThread | pdf_parser.split_documents:94 - INFO - 开始文档分块 - 原始文档数: 2
+2025-08-19 23:52:26 - SpawnProcess-1 | MainThread | pdf_parser.split_documents:105 - INFO - 文档分块完成 - 分块数: 4
+2025-08-19 23:52:26 - SpawnProcess-1 | MainThread | pdf_parser.parse_pdf_to_documents:132 - INFO - PDF文档解析完成 - 最终文档数: 4
+2025-08-19 23:52:26 - SpawnProcess-1 | MainThread | main.parse_pdf:132 - INFO - PDF解析完成: 徐泽坤.pdf, 文档数: 4
+2025-08-19 23:58:27 - SpawnProcess-1 | MainThread | main.parse_and_store_pdf:177 - INFO - 开始解析并存储PDF文件: 徐泽坤.pdf, 任务ID: f5764c61-c8e8-4770-bbea-157f6b60042a
+2025-08-19 23:58:27 - SpawnProcess-1 | MainThread | pdf_parser.__init__:45 - INFO - PDF解析器初始化完成 - 分块大小: 1000, 重叠大小: 200
+2025-08-19 23:58:27 - SpawnProcess-1 | MainThread | pdf_parser.parse_pdf_to_documents:123 - INFO - 开始解析PDF文档: C:\Users\32934\AppData\Local\Temp\tmpcsjgc54j.pdf
+2025-08-19 23:58:27 - SpawnProcess-1 | MainThread | pdf_parser.load_pdf:64 - INFO - 开始加载PDF文件: C:\Users\32934\AppData\Local\Temp\tmpcsjgc54j.pdf
+2025-08-19 23:58:28 - SpawnProcess-1 | MainThread | pdf_parser.load_pdf:71 - INFO - PDF加载完成 - 总页数: 2
+2025-08-19 23:58:28 - SpawnProcess-1 | MainThread | pdf_parser.split_documents:94 - INFO - 开始文档分块 - 原始文档数: 2
+2025-08-19 23:58:28 - SpawnProcess-1 | MainThread | pdf_parser.split_documents:105 - INFO - 文档分块完成 - 分块数: 4
+2025-08-19 23:58:28 - SpawnProcess-1 | MainThread | pdf_parser.parse_pdf_to_documents:132 - INFO - PDF文档解析完成 - 最终文档数: 4
+2025-08-19 23:58:28 - SpawnProcess-1 | MainThread | embeddings.zhipuai_embedding:112 - INFO - 初始化智谱AI嵌入模型: embedding-2
+2025-08-19 23:58:28 - SpawnProcess-1 | MainThread | embeddings.zhipuai_embedding:117 - INFO - 智谱AI嵌入模型初始化完成
+2025-08-19 23:58:28 - SpawnProcess-1 | MainThread | milvus_client.__init__:44 - INFO - 初始化Milvus向量存储 - 集合: test_徐泽坤_1755619103, 模型: zhipuai
+2025-08-19 23:58:28 - SpawnProcess-1 | MainThread | milvus_client.create_connection:54 - INFO - 连接到Milvus服务器: http://localhost:19530
+2025-08-19 23:58:28 - SpawnProcess-1 | MainThread | milvus_client.create_connection:77 - ERROR - Milvus连接失败: <MilvusException: (code=1100, message=Invalid collection name: test_徐泽坤_1755619103. collection name can only contain numbers, letters and underscores: invalid parameter)>
+2025-08-19 23:58:28 - SpawnProcess-1 | MainThread | main.parse_and_store_pdf:232 - ERROR - PDF解析并存储失败: 徐泽坤.pdf, 错误: 无法连接到Milvus数据库
+2025-08-20 00:04:35 - SpawnProcess-1 | MainThread | pdf_parser.__init__:45 - INFO - PDF解析器初始化完成 - 分块大小: 1000, 重叠大小: 200
+2025-08-20 00:07:11 - SpawnProcess-1 | MainThread | pdf_parser.__init__:45 - INFO - PDF解析器初始化完成 - 分块大小: 1000, 重叠大小: 200
+2025-08-20 00:07:41 - SpawnProcess-1 | MainThread | main.parse_and_store_pdf:177 - INFO - 开始解析并存储PDF文件: 徐泽坤.pdf, 任务ID: ba0f0d1b-502a-4698-b915-27fe77df23bb
+2025-08-20 00:07:41 - SpawnProcess-1 | MainThread | pdf_parser.__init__:45 - INFO - PDF解析器初始化完成 - 分块大小: 1000, 重叠大小: 200
+2025-08-20 00:07:41 - SpawnProcess-1 | MainThread | pdf_parser.parse_pdf_to_documents:123 - INFO - 开始解析PDF文档: C:\Users\32934\AppData\Local\Temp\tmpn70ao82f.pdf
+2025-08-20 00:07:41 - SpawnProcess-1 | MainThread | pdf_parser.load_pdf:64 - INFO - 开始加载PDF文件: C:\Users\32934\AppData\Local\Temp\tmpn70ao82f.pdf
+2025-08-20 00:07:42 - SpawnProcess-1 | MainThread | pdf_parser.load_pdf:71 - INFO - PDF加载完成 - 总页数: 2
+2025-08-20 00:07:42 - SpawnProcess-1 | MainThread | pdf_parser.split_documents:94 - INFO - 开始文档分块 - 原始文档数: 2
+2025-08-20 00:07:42 - SpawnProcess-1 | MainThread | pdf_parser.split_documents:105 - INFO - 文档分块完成 - 分块数: 4
+2025-08-20 00:07:42 - SpawnProcess-1 | MainThread | pdf_parser.parse_pdf_to_documents:132 - INFO - PDF文档解析完成 - 最终文档数: 4
+2025-08-20 00:07:42 - SpawnProcess-1 | MainThread | embeddings.zhipuai_embedding:112 - INFO - 初始化智谱AI嵌入模型: embedding-2
+2025-08-20 00:07:42 - SpawnProcess-1 | MainThread | embeddings.zhipuai_embedding:117 - INFO - 智谱AI嵌入模型初始化完成
+2025-08-20 00:07:42 - SpawnProcess-1 | MainThread | milvus_client.__init__:44 - INFO - 初始化Milvus向量存储 - 集合: test_徐泽坤_1755619657, 模型: zhipuai
+2025-08-20 00:07:42 - SpawnProcess-1 | MainThread | milvus_client.create_connection:54 - INFO - 连接到Milvus服务器: http://localhost:19530
+2025-08-20 00:07:42 - SpawnProcess-1 | MainThread | milvus_client.create_connection:77 - ERROR - Milvus连接失败: <MilvusException: (code=1100, message=Invalid collection name: test_徐泽坤_1755619657. collection name can only contain numbers, letters and underscores: invalid parameter)>
+2025-08-20 00:07:42 - SpawnProcess-1 | MainThread | main.parse_and_store_pdf:232 - ERROR - PDF解析并存储失败: 徐泽坤.pdf, 错误: 无法连接到Milvus数据库
+2025-08-20 00:10:44 - SpawnProcess-1 | MainThread | pdf_parser.__init__:45 - INFO - PDF解析器初始化完成 - 分块大小: 1000, 重叠大小: 200
+2025-08-20 00:11:31 - SpawnProcess-1 | MainThread | main.parse_and_store_pdf:177 - INFO - 开始解析并存储PDF文件: 徐泽坤.pdf, 任务ID: 32ad90b3-efe7-4624-924e-0a34558b0b59
+2025-08-20 00:11:31 - SpawnProcess-1 | MainThread | pdf_parser.__init__:45 - INFO - PDF解析器初始化完成 - 分块大小: 1000, 重叠大小: 200
+2025-08-20 00:11:31 - SpawnProcess-1 | MainThread | pdf_parser.parse_pdf_to_documents:123 - INFO - 开始解析PDF文档: C:\Users\32934\AppData\Local\Temp\tmpgl3cjudb.pdf
+2025-08-20 00:11:31 - SpawnProcess-1 | MainThread | pdf_parser.load_pdf:64 - INFO - 开始加载PDF文件: C:\Users\32934\AppData\Local\Temp\tmpgl3cjudb.pdf
+2025-08-20 00:11:32 - SpawnProcess-1 | MainThread | pdf_parser.load_pdf:71 - INFO - PDF加载完成 - 总页数: 2
+2025-08-20 00:11:32 - SpawnProcess-1 | MainThread | pdf_parser.split_documents:94 - INFO - 开始文档分块 - 原始文档数: 2
+2025-08-20 00:11:32 - SpawnProcess-1 | MainThread | pdf_parser.split_documents:105 - INFO - 文档分块完成 - 分块数: 4
+2025-08-20 00:11:32 - SpawnProcess-1 | MainThread | pdf_parser.parse_pdf_to_documents:132 - INFO - PDF文档解析完成 - 最终文档数: 4
+2025-08-20 00:11:32 - SpawnProcess-1 | MainThread | embeddings.zhipuai_embedding:112 - INFO - 初始化智谱AI嵌入模型: embedding-2
+2025-08-20 00:11:32 - SpawnProcess-1 | MainThread | embeddings.zhipuai_embedding:117 - INFO - 智谱AI嵌入模型初始化完成
+2025-08-20 00:11:32 - SpawnProcess-1 | MainThread | milvus_client.__init__:44 - INFO - 初始化Milvus向量存储 - 集合: test_徐泽坤_1755619887, 模型: zhipuai
+2025-08-20 00:11:32 - SpawnProcess-1 | MainThread | milvus_client.create_connection:54 - INFO - 连接到Milvus服务器: http://localhost:19530
+2025-08-20 00:11:32 - SpawnProcess-1 | MainThread | milvus_client.create_connection:77 - ERROR - Milvus连接失败: <MilvusException: (code=1100, message=Invalid collection name: test_徐泽坤_1755619887. collection name can only contain numbers, letters and underscores: invalid parameter)>
+2025-08-20 00:11:32 - SpawnProcess-1 | MainThread | main.parse_and_store_pdf:232 - ERROR - PDF解析并存储失败: 徐泽坤.pdf, 错误: 无法连接到Milvus数据库
+2025-08-20 00:12:09 - SpawnProcess-1 | MainThread | pdf_parser.__init__:45 - INFO - PDF解析器初始化完成 - 分块大小: 1000, 重叠大小: 200
+2025-08-20 00:12:20 - SpawnProcess-1 | MainThread | main.parse_and_store_pdf:177 - INFO - 开始解析并存储PDF文件: 徐泽坤.pdf, 任务ID: bcecb61e-79c1-42d9-8af3-8192824ff9b4
+2025-08-20 00:12:20 - SpawnProcess-1 | MainThread | pdf_parser.__init__:45 - INFO - PDF解析器初始化完成 - 分块大小: 1000, 重叠大小: 200
+2025-08-20 00:12:20 - SpawnProcess-1 | MainThread | pdf_parser.parse_pdf_to_documents:123 - INFO - 开始解析PDF文档: C:\Users\32934\AppData\Local\Temp\tmpufx1poq2.pdf
+2025-08-20 00:12:20 - SpawnProcess-1 | MainThread | pdf_parser.load_pdf:64 - INFO - 开始加载PDF文件: C:\Users\32934\AppData\Local\Temp\tmpufx1poq2.pdf
+2025-08-20 00:12:21 - SpawnProcess-1 | MainThread | pdf_parser.load_pdf:71 - INFO - PDF加载完成 - 总页数: 2
+2025-08-20 00:12:21 - SpawnProcess-1 | MainThread | pdf_parser.split_documents:94 - INFO - 开始文档分块 - 原始文档数: 2
+2025-08-20 00:12:21 - SpawnProcess-1 | MainThread | pdf_parser.split_documents:105 - INFO - 文档分块完成 - 分块数: 4
+2025-08-20 00:12:21 - SpawnProcess-1 | MainThread | pdf_parser.parse_pdf_to_documents:132 - INFO - PDF文档解析完成 - 最终文档数: 4
+2025-08-20 00:12:21 - SpawnProcess-1 | MainThread | embeddings.zhipuai_embedding:112 - INFO - 初始化智谱AI嵌入模型: embedding-2
+2025-08-20 00:12:24 - SpawnProcess-1 | MainThread | embeddings.zhipuai_embedding:117 - INFO - 智谱AI嵌入模型初始化完成
+2025-08-20 00:12:24 - SpawnProcess-1 | MainThread | milvus_client.__init__:44 - INFO - 初始化Milvus向量存储 - 集合: test_徐泽坤_1755619936, 模型: zhipuai
+2025-08-20 00:12:24 - SpawnProcess-1 | MainThread | milvus_client.create_connection:54 - INFO - 连接到Milvus服务器: http://localhost:19530
+2025-08-20 00:12:25 - SpawnProcess-1 | MainThread | milvus_client.create_connection:77 - ERROR - Milvus连接失败: <MilvusException: (code=1100, message=Invalid collection name: test_徐泽坤_1755619936. collection name can only contain numbers, letters and underscores: invalid parameter)>
+2025-08-20 00:12:25 - SpawnProcess-1 | MainThread | main.parse_and_store_pdf:232 - ERROR - PDF解析并存储失败: 徐泽坤.pdf, 错误: 无法连接到Milvus数据库
+2025-08-20 00:13:34 - SpawnProcess-2 | MainThread | pdf_parser.__init__:45 - INFO - PDF解析器初始化完成 - 分块大小: 1000, 重叠大小: 200
+2025-08-20 00:13:49 - SpawnProcess-1 | MainThread | pdf_parser.__init__:45 - INFO - PDF解析器初始化完成 - 分块大小: 1000, 重叠大小: 200
+2025-08-20 00:14:15 - SpawnProcess-1 | MainThread | main.parse_and_store_pdf:177 - INFO - 开始解析并存储PDF文件: 徐泽坤.pdf, 任务ID: 21cf4091-b1d2-42d4-b0c3-424a8cfe357a
+2025-08-20 00:14:15 - SpawnProcess-1 | MainThread | pdf_parser.__init__:45 - INFO - PDF解析器初始化完成 - 分块大小: 1000, 重叠大小: 200
+2025-08-20 00:14:15 - SpawnProcess-1 | MainThread | pdf_parser.parse_pdf_to_documents:123 - INFO - 开始解析PDF文档: C:\Users\32934\AppData\Local\Temp\tmp4oatqfb1.pdf
+2025-08-20 00:14:15 - SpawnProcess-1 | MainThread | pdf_parser.load_pdf:64 - INFO - 开始加载PDF文件: C:\Users\32934\AppData\Local\Temp\tmp4oatqfb1.pdf
+2025-08-20 00:14:16 - SpawnProcess-1 | MainThread | pdf_parser.load_pdf:71 - INFO - PDF加载完成 - 总页数: 2
+2025-08-20 00:14:16 - SpawnProcess-1 | MainThread | pdf_parser.split_documents:94 - INFO - 开始文档分块 - 原始文档数: 2
+2025-08-20 00:14:16 - SpawnProcess-1 | MainThread | pdf_parser.split_documents:105 - INFO - 文档分块完成 - 分块数: 4
+2025-08-20 00:14:16 - SpawnProcess-1 | MainThread | pdf_parser.parse_pdf_to_documents:132 - INFO - PDF文档解析完成 - 最终文档数: 4
+2025-08-20 00:14:16 - SpawnProcess-1 | MainThread | embeddings.zhipuai_embedding:112 - INFO - 初始化智谱AI嵌入模型: embedding-2
+2025-08-20 00:14:16 - SpawnProcess-1 | MainThread | embeddings.zhipuai_embedding:117 - INFO - 智谱AI嵌入模型初始化完成
+2025-08-20 00:14:16 - SpawnProcess-1 | MainThread | milvus_client.__init__:44 - INFO - 初始化Milvus向量存储 - 集合: test_doc_0476fcb0_1755620051, 模型: zhipuai
+2025-08-20 00:14:16 - SpawnProcess-1 | MainThread | milvus_client.create_connection:54 - INFO - 连接到Milvus服务器: http://localhost:19530
+2025-08-20 00:14:17 - SpawnProcess-1 | MainThread | milvus_client.create_connection:73 - INFO - Milvus连接创建成功
+2025-08-20 00:14:17 - SpawnProcess-1 | MainThread | milvus_client.create_collection_if_not_exists:97 - INFO - 创建集合: test_doc_0476fcb0_1755620051
+2025-08-20 00:14:17 - SpawnProcess-1 | MainThread | milvus_client.create_collection_if_not_exists:135 - ERROR - 创建集合失败: type object 'MetricType' has no attribute 'COSINE'
+2025-08-20 00:14:17 - SpawnProcess-1 | MainThread | main.parse_and_store_pdf:232 - ERROR - PDF解析并存储失败: 徐泽坤.pdf, 错误: 无法创建Milvus集合
+2025-08-20 00:14:53 - SpawnProcess-1 | MainThread | pdf_parser.__init__:45 - INFO - PDF解析器初始化完成 - 分块大小: 1000, 重叠大小: 200
+2025-08-20 00:15:01 - SpawnProcess-1 | MainThread | main.parse_and_store_pdf:177 - INFO - 开始解析并存储PDF文件: xzk.pdf, 任务ID: bac0960a-96d4-4ec4-8032-6c0a70006960
+2025-08-20 00:15:01 - SpawnProcess-1 | MainThread | pdf_parser.__init__:45 - INFO - PDF解析器初始化完成 - 分块大小: 1000, 重叠大小: 200
+2025-08-20 00:15:01 - SpawnProcess-1 | MainThread | pdf_parser.parse_pdf_to_documents:123 - INFO - 开始解析PDF文档: C:\Users\32934\AppData\Local\Temp\tmp9f80ue86.pdf
+2025-08-20 00:15:01 - SpawnProcess-1 | MainThread | pdf_parser.load_pdf:64 - INFO - 开始加载PDF文件: C:\Users\32934\AppData\Local\Temp\tmp9f80ue86.pdf
+2025-08-20 00:15:01 - SpawnProcess-1 | MainThread | pdf_parser.load_pdf:71 - INFO - PDF加载完成 - 总页数: 2
+2025-08-20 00:15:01 - SpawnProcess-1 | MainThread | pdf_parser.split_documents:94 - INFO - 开始文档分块 - 原始文档数: 2
+2025-08-20 00:15:01 - SpawnProcess-1 | MainThread | pdf_parser.split_documents:105 - INFO - 文档分块完成 - 分块数: 4
+2025-08-20 00:15:01 - SpawnProcess-1 | MainThread | pdf_parser.parse_pdf_to_documents:132 - INFO - PDF文档解析完成 - 最终文档数: 4
+2025-08-20 00:15:01 - SpawnProcess-1 | MainThread | embeddings.zhipuai_embedding:112 - INFO - 初始化智谱AI嵌入模型: embedding-2
+2025-08-20 00:15:02 - SpawnProcess-1 | MainThread | embeddings.zhipuai_embedding:117 - INFO - 智谱AI嵌入模型初始化完成
+2025-08-20 00:15:02 - SpawnProcess-1 | MainThread | milvus_client.__init__:44 - INFO - 初始化Milvus向量存储 - 集合: test_xzk_1755620097, 模型: zhipuai
+2025-08-20 00:15:02 - SpawnProcess-1 | MainThread | milvus_client.create_connection:54 - INFO - 连接到Milvus服务器: http://localhost:19530
+2025-08-20 00:15:02 - SpawnProcess-1 | MainThread | milvus_client.create_connection:73 - INFO - Milvus连接创建成功
+2025-08-20 00:15:02 - SpawnProcess-1 | MainThread | milvus_client.create_collection_if_not_exists:97 - INFO - 创建集合: test_xzk_1755620097
+2025-08-20 00:15:02 - SpawnProcess-1 | MainThread | milvus_client.create_collection_if_not_exists:135 - ERROR - 创建集合失败: type object 'MetricType' has no attribute 'COSINE'
+2025-08-20 00:15:02 - SpawnProcess-1 | MainThread | main.parse_and_store_pdf:232 - ERROR - PDF解析并存储失败: xzk.pdf, 错误: 无法创建Milvus集合
+2025-08-20 00:20:03 - SpawnProcess-1 | MainThread | pdf_parser.__init__:45 - INFO - PDF解析器初始化完成 - 分块大小: 1000, 重叠大小: 200
+2025-08-20 00:20:18 - SpawnProcess-1 | MainThread | main.parse_and_store_pdf:177 - INFO - 开始解析并存储PDF文件: xzk.pdf, 任务ID: 361eeb0f-d3f7-46ad-b0c2-68c839e50b46
+2025-08-20 00:20:18 - SpawnProcess-1 | MainThread | pdf_parser.__init__:45 - INFO - PDF解析器初始化完成 - 分块大小: 1000, 重叠大小: 200
+2025-08-20 00:20:18 - SpawnProcess-1 | MainThread | pdf_parser.parse_pdf_to_documents:123 - INFO - 开始解析PDF文档: C:\Users\32934\AppData\Local\Temp\tmpcdedgese.pdf
+2025-08-20 00:20:18 - SpawnProcess-1 | MainThread | pdf_parser.load_pdf:64 - INFO - 开始加载PDF文件: C:\Users\32934\AppData\Local\Temp\tmpcdedgese.pdf
+2025-08-20 00:20:18 - SpawnProcess-1 | MainThread | pdf_parser.load_pdf:71 - INFO - PDF加载完成 - 总页数: 2
+2025-08-20 00:20:18 - SpawnProcess-1 | MainThread | pdf_parser.split_documents:94 - INFO - 开始文档分块 - 原始文档数: 2
+2025-08-20 00:20:18 - SpawnProcess-1 | MainThread | pdf_parser.split_documents:105 - INFO - 文档分块完成 - 分块数: 4
+2025-08-20 00:20:18 - SpawnProcess-1 | MainThread | pdf_parser.parse_pdf_to_documents:132 - INFO - PDF文档解析完成 - 最终文档数: 4
+2025-08-20 00:20:18 - SpawnProcess-1 | MainThread | embeddings.zhipuai_embedding:112 - INFO - 初始化智谱AI嵌入模型: embedding-2
+2025-08-20 00:20:19 - SpawnProcess-1 | MainThread | embeddings.zhipuai_embedding:117 - INFO - 智谱AI嵌入模型初始化完成
+2025-08-20 00:20:19 - SpawnProcess-1 | MainThread | milvus_client.__init__:44 - INFO - 初始化Milvus向量存储 - 集合: test_xzk_1755620414, 模型: zhipuai
+2025-08-20 00:20:19 - SpawnProcess-1 | MainThread | milvus_client.create_connection:54 - INFO - 连接到Milvus服务器: http://localhost:19530
+2025-08-20 00:20:19 - SpawnProcess-1 | MainThread | milvus_client.create_connection:73 - INFO - Milvus连接创建成功
+2025-08-20 00:20:19 - SpawnProcess-1 | MainThread | milvus_client.create_collection_if_not_exists:97 - INFO - 创建集合: test_xzk_1755620414
+2025-08-20 00:20:19 - SpawnProcess-1 | MainThread | milvus_client.create_collection_if_not_exists:111 - INFO - 检测到嵌入模型维度: 1024
+2025-08-20 00:20:20 - SpawnProcess-1 | MainThread | milvus_client.create_collection_if_not_exists:141 - INFO - 集合 test_xzk_1755620414 创建成功
+2025-08-20 00:20:20 - SpawnProcess-1 | MainThread | milvus_client.add_documents:163 - INFO - 开始添加 4 个文档到向量存储
+2025-08-20 00:20:20 - SpawnProcess-1 | MainThread | milvus_client.add_documents:172 - ERROR - 添加文档失败: <SchemaNotReadyException: (code=1, message=The parameter consistency_level is inconsistent with that of existed collection.)>
+2025-08-20 00:20:20 - SpawnProcess-1 | MainThread | main.parse_and_store_pdf:232 - ERROR - PDF解析并存储失败: xzk.pdf, 错误: 文档存储到Milvus失败
+2025-08-20 00:22:36 - SpawnProcess-2 | MainThread | pdf_parser.__init__:45 - INFO - PDF解析器初始化完成 - 分块大小: 1000, 重叠大小: 200
+2025-08-20 00:24:22 - SpawnProcess-2 | MainThread | main.parse_and_store_pdf:177 - INFO - 开始解析并存储PDF文件: xzk.pdf, 任务ID: 4965f10f-b50c-4ac8-b50d-7bf762d890ea
+2025-08-20 00:24:22 - SpawnProcess-2 | MainThread | pdf_parser.__init__:45 - INFO - PDF解析器初始化完成 - 分块大小: 1000, 重叠大小: 200
+2025-08-20 00:24:22 - SpawnProcess-2 | MainThread | pdf_parser.parse_pdf_to_documents:123 - INFO - 开始解析PDF文档: C:\Users\32934\AppData\Local\Temp\tmp_bngbgfa.pdf
+2025-08-20 00:24:22 - SpawnProcess-2 | MainThread | pdf_parser.load_pdf:64 - INFO - 开始加载PDF文件: C:\Users\32934\AppData\Local\Temp\tmp_bngbgfa.pdf
+2025-08-20 00:24:22 - SpawnProcess-2 | MainThread | pdf_parser.load_pdf:71 - INFO - PDF加载完成 - 总页数: 2
+2025-08-20 00:24:22 - SpawnProcess-2 | MainThread | pdf_parser.split_documents:94 - INFO - 开始文档分块 - 原始文档数: 2
+2025-08-20 00:24:22 - SpawnProcess-2 | MainThread | pdf_parser.split_documents:105 - INFO - 文档分块完成 - 分块数: 4
+2025-08-20 00:24:22 - SpawnProcess-2 | MainThread | pdf_parser.parse_pdf_to_documents:132 - INFO - PDF文档解析完成 - 最终文档数: 4
+2025-08-20 00:24:22 - SpawnProcess-2 | MainThread | embeddings.zhipuai_embedding:112 - INFO - 初始化智谱AI嵌入模型: embedding-2
+2025-08-20 00:24:23 - SpawnProcess-2 | MainThread | embeddings.zhipuai_embedding:117 - INFO - 智谱AI嵌入模型初始化完成
+2025-08-20 00:24:23 - SpawnProcess-2 | MainThread | milvus_client.__init__:44 - INFO - 初始化Milvus向量存储 - 集合: test_xzk_1755620657, 模型: zhipuai
+2025-08-20 00:24:23 - SpawnProcess-2 | MainThread | milvus_client.create_connection:54 - INFO - 连接到Milvus服务器: http://localhost:19530
+2025-08-20 00:24:23 - SpawnProcess-2 | MainThread | milvus_client.create_connection:73 - INFO - Milvus连接创建成功
+2025-08-20 00:24:23 - SpawnProcess-2 | MainThread | milvus_client.create_collection_if_not_exists:97 - INFO - 创建集合: test_xzk_1755620657
+2025-08-20 00:24:23 - SpawnProcess-2 | MainThread | milvus_client.create_collection_if_not_exists:111 - INFO - 检测到嵌入模型维度: 1024
+2025-08-20 00:24:24 - SpawnProcess-2 | MainThread | milvus_client.create_collection_if_not_exists:141 - INFO - 集合 test_xzk_1755620657 创建成功
+2025-08-20 00:24:24 - SpawnProcess-2 | MainThread | milvus_client.add_documents:163 - INFO - 开始添加 4 个文档到向量存储
+2025-08-20 00:24:25 - SpawnProcess-2 | MainThread | milvus_client.add_documents:172 - ERROR - 添加文档失败: <SchemaNotReadyException: (code=1, message=The parameter consistency_level is inconsistent with that of existed collection.)>
+2025-08-20 00:24:25 - SpawnProcess-2 | MainThread | main.parse_and_store_pdf:232 - ERROR - PDF解析并存储失败: xzk.pdf, 错误: 文档存储到Milvus失败
+2025-08-20 00:25:16 - SpawnProcess-1 | MainThread | pdf_parser.__init__:45 - INFO - PDF解析器初始化完成 - 分块大小: 1000, 重叠大小: 200
+2025-08-20 00:26:03 - SpawnProcess-1 | MainThread | main.parse_and_store_pdf:177 - INFO - 开始解析并存储PDF文件: xzk.pdf, 任务ID: 1bc085e2-40e1-4fc6-b101-36d90fcfece1
+2025-08-20 00:26:03 - SpawnProcess-1 | MainThread | pdf_parser.__init__:45 - INFO - PDF解析器初始化完成 - 分块大小: 1000, 重叠大小: 200
+2025-08-20 00:26:03 - SpawnProcess-1 | MainThread | pdf_parser.parse_pdf_to_documents:123 - INFO - 开始解析PDF文档: C:\Users\32934\AppData\Local\Temp\tmp7bo1beew.pdf
+2025-08-20 00:26:03 - SpawnProcess-1 | MainThread | pdf_parser.load_pdf:64 - INFO - 开始加载PDF文件: C:\Users\32934\AppData\Local\Temp\tmp7bo1beew.pdf
+2025-08-20 00:26:04 - SpawnProcess-1 | MainThread | pdf_parser.load_pdf:71 - INFO - PDF加载完成 - 总页数: 2
+2025-08-20 00:26:04 - SpawnProcess-1 | MainThread | pdf_parser.split_documents:94 - INFO - 开始文档分块 - 原始文档数: 2
+2025-08-20 00:26:04 - SpawnProcess-1 | MainThread | pdf_parser.split_documents:105 - INFO - 文档分块完成 - 分块数: 4
+2025-08-20 00:26:04 - SpawnProcess-1 | MainThread | pdf_parser.parse_pdf_to_documents:132 - INFO - PDF文档解析完成 - 最终文档数: 4
+2025-08-20 00:26:04 - SpawnProcess-1 | MainThread | embeddings.zhipuai_embedding:112 - INFO - 初始化智谱AI嵌入模型: embedding-2
+2025-08-20 00:26:04 - SpawnProcess-1 | MainThread | embeddings.zhipuai_embedding:117 - INFO - 智谱AI嵌入模型初始化完成
+2025-08-20 00:26:04 - SpawnProcess-1 | MainThread | milvus_client.__init__:44 - INFO - 初始化Milvus向量存储 - 集合: test_xzk_1755620759, 模型: zhipuai
+2025-08-20 00:26:04 - SpawnProcess-1 | MainThread | milvus_client.create_connection:54 - INFO - 连接到Milvus服务器: http://localhost:19530
+2025-08-20 00:26:04 - SpawnProcess-1 | MainThread | milvus_client.create_connection:73 - INFO - Milvus连接创建成功
+2025-08-20 00:26:04 - SpawnProcess-1 | MainThread | milvus_client.create_collection_if_not_exists:97 - INFO - 创建集合: test_xzk_1755620759
+2025-08-20 00:26:05 - SpawnProcess-1 | MainThread | milvus_client.create_collection_if_not_exists:111 - INFO - 检测到嵌入模型维度: 1024
+2025-08-20 00:26:05 - SpawnProcess-1 | MainThread | milvus_client.create_collection_if_not_exists:141 - INFO - 集合 test_xzk_1755620759 创建成功
+2025-08-20 00:26:05 - SpawnProcess-1 | MainThread | milvus_client.add_documents:163 - INFO - 开始添加 4 个文档到向量存储
+2025-08-20 00:26:06 - SpawnProcess-1 | MainThread | milvus_client.add_documents:172 - ERROR - 添加文档失败: <SchemaNotReadyException: (code=1, message=The parameter consistency_level is inconsistent with that of existed collection.)>
+2025-08-20 00:26:06 - SpawnProcess-1 | MainThread | main.parse_and_store_pdf:232 - ERROR - PDF解析并存储失败: xzk.pdf, 错误: 文档存储到Milvus失败
+2025-08-20 00:26:45 - SpawnProcess-2 | MainThread | pdf_parser.__init__:45 - INFO - PDF解析器初始化完成 - 分块大小: 1000, 重叠大小: 200
+2025-08-20 00:27:02 - SpawnProcess-1 | MainThread | pdf_parser.__init__:45 - INFO - PDF解析器初始化完成 - 分块大小: 1000, 重叠大小: 200
+2025-08-20 00:27:21 - SpawnProcess-1 | MainThread | main.parse_and_store_pdf:177 - INFO - 开始解析并存储PDF文件: xzk.pdf, 任务ID: fb6f72bc-2146-47fa-86c8-1c79feeda457
+2025-08-20 00:27:21 - SpawnProcess-1 | MainThread | pdf_parser.__init__:45 - INFO - PDF解析器初始化完成 - 分块大小: 1000, 重叠大小: 200
+2025-08-20 00:27:21 - SpawnProcess-1 | MainThread | pdf_parser.parse_pdf_to_documents:123 - INFO - 开始解析PDF文档: C:\Users\32934\AppData\Local\Temp\tmpz0_0wtek.pdf
+2025-08-20 00:27:21 - SpawnProcess-1 | MainThread | pdf_parser.load_pdf:64 - INFO - 开始加载PDF文件: C:\Users\32934\AppData\Local\Temp\tmpz0_0wtek.pdf
+2025-08-20 00:27:24 - SpawnProcess-1 | MainThread | pdf_parser.load_pdf:71 - INFO - PDF加载完成 - 总页数: 2
+2025-08-20 00:27:24 - SpawnProcess-1 | MainThread | pdf_parser.split_documents:94 - INFO - 开始文档分块 - 原始文档数: 2
+2025-08-20 00:27:24 - SpawnProcess-1 | MainThread | pdf_parser.split_documents:105 - INFO - 文档分块完成 - 分块数: 4
+2025-08-20 00:27:24 - SpawnProcess-1 | MainThread | pdf_parser.parse_pdf_to_documents:132 - INFO - PDF文档解析完成 - 最终文档数: 4
+2025-08-20 00:27:24 - SpawnProcess-1 | MainThread | embeddings.zhipuai_embedding:112 - INFO - 初始化智谱AI嵌入模型: embedding-2
+2025-08-20 00:27:25 - SpawnProcess-1 | MainThread | embeddings.zhipuai_embedding:117 - INFO - 智谱AI嵌入模型初始化完成
+2025-08-20 00:27:25 - SpawnProcess-1 | MainThread | milvus_client.__init__:44 - INFO - 初始化Milvus向量存储 - 集合: test_xzk_1755620837, 模型: zhipuai
+2025-08-20 00:27:25 - SpawnProcess-1 | MainThread | milvus_client.create_connection:54 - INFO - 连接到Milvus服务器: http://localhost:19530
+2025-08-20 00:27:25 - SpawnProcess-1 | MainThread | milvus_client.create_connection:73 - INFO - Milvus连接创建成功
+2025-08-20 00:27:25 - SpawnProcess-1 | MainThread | milvus_client.create_collection_if_not_exists:101 - INFO - 创建集合: test_xzk_1755620837
+2025-08-20 00:27:26 - SpawnProcess-1 | MainThread | milvus_client.create_collection_if_not_exists:115 - INFO - 检测到嵌入模型维度: 1024
+2025-08-20 00:27:26 - SpawnProcess-1 | MainThread | milvus_client.create_collection_if_not_exists:145 - INFO - 集合 test_xzk_1755620837 创建成功
+2025-08-20 00:27:26 - SpawnProcess-1 | MainThread | milvus_client.add_documents:167 - INFO - 开始添加 4 个文档到向量存储
+2025-08-20 00:27:27 - SpawnProcess-1 | MainThread | milvus_client.add_documents:176 - ERROR - 添加文档失败: <SchemaNotReadyException: (code=1, message=The parameter consistency_level is inconsistent with that of existed collection.)>
+2025-08-20 00:27:27 - SpawnProcess-1 | MainThread | main.parse_and_store_pdf:232 - ERROR - PDF解析并存储失败: xzk.pdf, 错误: 文档存储到Milvus失败
+2025-08-20 00:28:37 - SpawnProcess-2 | MainThread | pdf_parser.__init__:45 - INFO - PDF解析器初始化完成 - 分块大小: 1000, 重叠大小: 200
+2025-08-20 00:28:53 - SpawnProcess-3 | MainThread | pdf_parser.__init__:45 - INFO - PDF解析器初始化完成 - 分块大小: 1000, 重叠大小: 200
+2025-08-20 00:30:28 - SpawnProcess-1 | MainThread | pdf_parser.__init__:45 - INFO - PDF解析器初始化完成 - 分块大小: 1000, 重叠大小: 200
+2025-08-20 00:30:46 - SpawnProcess-1 | MainThread | main.parse_and_store_pdf:177 - INFO - 开始解析并存储PDF文件: xzk.pdf, 任务ID: d51d21e7-ad7c-429d-a8b3-9c06469a892b
+2025-08-20 00:30:46 - SpawnProcess-1 | MainThread | pdf_parser.__init__:45 - INFO - PDF解析器初始化完成 - 分块大小: 1000, 重叠大小: 200
+2025-08-20 00:30:46 - SpawnProcess-1 | MainThread | pdf_parser.parse_pdf_to_documents:123 - INFO - 开始解析PDF文档: C:\Users\32934\AppData\Local\Temp\tmpkkhys7xj.pdf
+2025-08-20 00:30:46 - SpawnProcess-1 | MainThread | pdf_parser.load_pdf:64 - INFO - 开始加载PDF文件: C:\Users\32934\AppData\Local\Temp\tmpkkhys7xj.pdf
+2025-08-20 00:30:46 - SpawnProcess-1 | MainThread | pdf_parser.load_pdf:71 - INFO - PDF加载完成 - 总页数: 2
+2025-08-20 00:30:46 - SpawnProcess-1 | MainThread | pdf_parser.split_documents:94 - INFO - 开始文档分块 - 原始文档数: 2
+2025-08-20 00:30:46 - SpawnProcess-1 | MainThread | pdf_parser.split_documents:105 - INFO - 文档分块完成 - 分块数: 4
+2025-08-20 00:30:46 - SpawnProcess-1 | MainThread | pdf_parser.parse_pdf_to_documents:132 - INFO - PDF文档解析完成 - 最终文档数: 4
+2025-08-20 00:30:46 - SpawnProcess-1 | MainThread | embeddings.zhipuai_embedding:112 - INFO - 初始化智谱AI嵌入模型: embedding-2
+2025-08-20 00:30:47 - SpawnProcess-1 | MainThread | embeddings.zhipuai_embedding:117 - INFO - 智谱AI嵌入模型初始化完成
+2025-08-20 00:30:47 - SpawnProcess-1 | MainThread | milvus_client.__init__:44 - INFO - 初始化Milvus向量存储 - 集合: test_xzk_1755621042, 模型: zhipuai
+2025-08-20 00:30:47 - SpawnProcess-1 | MainThread | milvus_client.create_connection:54 - INFO - 连接到Milvus服务器: http://localhost:19530
+2025-08-20 00:30:47 - SpawnProcess-1 | MainThread | milvus_client.create_connection:73 - INFO - Milvus连接创建成功
+2025-08-20 00:30:47 - SpawnProcess-1 | MainThread | milvus_client.create_collection_if_not_exists:100 - INFO - 集合 test_xzk_1755621042 将由LangChain自动创建
+2025-08-20 00:30:47 - SpawnProcess-1 | MainThread | milvus_client.add_documents:122 - INFO - 开始添加 4 个文档到向量存储
+2025-08-20 00:30:49 - SpawnProcess-1 | MainThread | milvus_client.add_documents:127 - INFO - 文档添加成功
+2025-08-20 00:30:49 - SpawnProcess-1 | MainThread | main.parse_and_store_pdf:218 - INFO - PDF解析并存储完成: xzk.pdf, 文档数: 4
+2025-08-20 00:31:05 - SpawnProcess-1 | MainThread | main.search_documents:262 - INFO - 开始搜索文档: 高并发
+2025-08-20 00:31:05 - SpawnProcess-1 | MainThread | milvus_client.__init__:44 - INFO - 初始化Milvus向量存储 - 集合: test_xzk_1755621042, 模型: zhipuai
+2025-08-20 00:31:05 - SpawnProcess-1 | MainThread | milvus_client.create_connection:54 - INFO - 连接到Milvus服务器: http://localhost:19530
+2025-08-20 00:31:05 - SpawnProcess-1 | MainThread | milvus_client.create_connection:73 - INFO - Milvus连接创建成功
+2025-08-20 00:31:05 - SpawnProcess-1 | MainThread | milvus_client.similarity_search_with_score:196 - INFO - 执行带分数的相似性搜索: 高并发...
+2025-08-20 00:31:05 - SpawnProcess-1 | MainThread | milvus_client.similarity_search_with_score:211 - INFO - 搜索完成，返回 3 个结果
+2025-08-20 00:31:05 - SpawnProcess-1 | MainThread | main.search_documents:288 - INFO - 搜索完成: 高并发, 结果数: 3
+2025-08-20 00:31:07 - SpawnProcess-1 | MainThread | main.search_documents:262 - INFO - 开始搜索文档: 技能
+2025-08-20 00:31:07 - SpawnProcess-1 | MainThread | milvus_client.__init__:44 - INFO - 初始化Milvus向量存储 - 集合: test_xzk_1755621042, 模型: zhipuai
+2025-08-20 00:31:07 - SpawnProcess-1 | MainThread | milvus_client.create_connection:54 - INFO - 连接到Milvus服务器: http://localhost:19530
+2025-08-20 00:31:07 - SpawnProcess-1 | MainThread | milvus_client.create_connection:73 - INFO - Milvus连接创建成功
+2025-08-20 00:31:07 - SpawnProcess-1 | MainThread | milvus_client.similarity_search_with_score:196 - INFO - 执行带分数的相似性搜索: 技能...
+2025-08-20 00:31:07 - SpawnProcess-1 | MainThread | milvus_client.similarity_search_with_score:211 - INFO - 搜索完成，返回 2 个结果
+2025-08-20 00:31:07 - SpawnProcess-1 | MainThread | main.search_documents:288 - INFO - 搜索完成: 技能, 结果数: 2
+2025-08-20 00:31:09 - SpawnProcess-1 | MainThread | main.search_documents:262 - INFO - 开始搜索文档: 经验
+2025-08-20 00:31:09 - SpawnProcess-1 | MainThread | milvus_client.__init__:44 - INFO - 初始化Milvus向量存储 - 集合: test_xzk_1755621042, 模型: zhipuai
+2025-08-20 00:31:09 - SpawnProcess-1 | MainThread | milvus_client.create_connection:54 - INFO - 连接到Milvus服务器: http://localhost:19530
+2025-08-20 00:31:10 - SpawnProcess-1 | MainThread | milvus_client.create_connection:73 - INFO - Milvus连接创建成功
+2025-08-20 00:31:10 - SpawnProcess-1 | MainThread | milvus_client.similarity_search_with_score:196 - INFO - 执行带分数的相似性搜索: 经验...
+2025-08-20 00:31:10 - SpawnProcess-1 | MainThread | milvus_client.similarity_search_with_score:211 - INFO - 搜索完成，返回 2 个结果
+2025-08-20 00:31:10 - SpawnProcess-1 | MainThread | main.search_documents:288 - INFO - 搜索完成: 经验, 结果数: 2
+2025-08-20 00:31:12 - SpawnProcess-1 | MainThread | main.search_documents:262 - INFO - 开始搜索文档: 教育
+2025-08-20 00:31:12 - SpawnProcess-1 | MainThread | milvus_client.__init__:44 - INFO - 初始化Milvus向量存储 - 集合: test_xzk_1755621042, 模型: zhipuai
+2025-08-20 00:31:12 - SpawnProcess-1 | MainThread | milvus_client.create_connection:54 - INFO - 连接到Milvus服务器: http://localhost:19530
+2025-08-20 00:31:12 - SpawnProcess-1 | MainThread | milvus_client.create_connection:73 - INFO - Milvus连接创建成功
+2025-08-20 00:31:12 - SpawnProcess-1 | MainThread | milvus_client.similarity_search_with_score:196 - INFO - 执行带分数的相似性搜索: 教育...
+2025-08-20 00:31:12 - SpawnProcess-1 | MainThread | milvus_client.similarity_search_with_score:211 - INFO - 搜索完成，返回 2 个结果
+2025-08-20 00:31:12 - SpawnProcess-1 | MainThread | main.search_documents:288 - INFO - 搜索完成: 教育, 结果数: 2
+2025-08-20 00:31:14 - SpawnProcess-1 | MainThread | main.search_documents:262 - INFO - 开始搜索文档: 项目
+2025-08-20 00:31:14 - SpawnProcess-1 | MainThread | milvus_client.__init__:44 - INFO - 初始化Milvus向量存储 - 集合: test_xzk_1755621042, 模型: zhipuai
+2025-08-20 00:31:14 - SpawnProcess-1 | MainThread | milvus_client.create_connection:54 - INFO - 连接到Milvus服务器: http://localhost:19530
+2025-08-20 00:31:14 - SpawnProcess-1 | MainThread | milvus_client.create_connection:73 - INFO - Milvus连接创建成功
+2025-08-20 00:31:14 - SpawnProcess-1 | MainThread | milvus_client.similarity_search_with_score:196 - INFO - 执行带分数的相似性搜索: 项目...
+2025-08-20 00:31:15 - SpawnProcess-1 | MainThread | milvus_client.similarity_search_with_score:211 - INFO - 搜索完成，返回 2 个结果
+2025-08-20 00:31:15 - SpawnProcess-1 | MainThread | main.search_documents:288 - INFO - 搜索完成: 项目, 结果数: 2
+2025-08-20 00:31:17 - SpawnProcess-1 | MainThread | main.search_documents:262 - INFO - 开始搜索文档: 工作
+2025-08-20 00:31:17 - SpawnProcess-1 | MainThread | milvus_client.__init__:44 - INFO - 初始化Milvus向量存储 - 集合: test_xzk_1755621042, 模型: zhipuai
+2025-08-20 00:31:17 - SpawnProcess-1 | MainThread | milvus_client.create_connection:54 - INFO - 连接到Milvus服务器: http://localhost:19530
+2025-08-20 00:31:17 - SpawnProcess-1 | MainThread | milvus_client.create_connection:73 - INFO - Milvus连接创建成功
+2025-08-20 00:31:17 - SpawnProcess-1 | MainThread | milvus_client.similarity_search_with_score:196 - INFO - 执行带分数的相似性搜索: 工作...
+2025-08-20 00:31:17 - SpawnProcess-1 | MainThread | milvus_client.similarity_search_with_score:211 - INFO - 搜索完成，返回 2 个结果
+2025-08-20 00:31:17 - SpawnProcess-1 | MainThread | main.search_documents:288 - INFO - 搜索完成: 工作, 结果数: 2
